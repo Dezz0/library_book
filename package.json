@@ -1,0 +1,21 @@
+{
+    "name": "book_library",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "build": "rollup -c --watch"
+    },
+    "author": "Viktor",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.55.0"
+    },
+    "dependencies": {
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "on-change": "^5.0.0",
+        "rollup": "^4.9.0",
+        "rollup-plugin-import-css": "^3.3.5"
+    }
+}

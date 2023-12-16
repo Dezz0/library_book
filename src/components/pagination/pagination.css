@@ -1,0 +1,42 @@
+.footer_pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.footer_pagination__btn {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.footer_pagination__btn span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.forward {
+    margin-left: auto;
+}
+
+@media (max-width: 500px) {
+    .footer_pagination {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .footer_pagination__btn span {
+        display: none;
+    }
+
+    .forward {
+        margin-left: 0px;
+    }
+}
